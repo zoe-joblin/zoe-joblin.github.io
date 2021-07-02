@@ -1,0 +1,68 @@
+body {
+font-family: 'Assistant', sans-serif;
+background-color: pink;
+font-size: 12px;
+text-align: center;
+position: relative;
+align-content: center;
+}
+h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    margin: 5px;
+}
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    margin: 5px;
+}
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    margin: 5px;
+}
+h4 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 15px;
+}
+p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 15px;
+    width: auto;
+    text-align: center;  
+    
+}
+
+.list {
+    position: relative;
+    align-content: center;
+    width: auto;
+    border-color: powderblue;
+    border-width: 5px;
+    border-style: solid;
+   border-radius: 5px;
+   background-color: plum;
+   font-size: 14px;
+   text-align: left;  
+   padding: 10px 10px 10px 20px;
+}
+img {
+    width: 200px;
+    align-content:center;
+    border-color: powderblue;
+    border-width: 5px;
+    border-style:solid;
+   border-radius: 5px;
+}
+.centred {
+    text-align: center;  
+    align-content: center;
+}
+#harbour_img {
+    width: 400px;
+    align-content:center;
+    border-color: powderblue;
+    border-width: 5px;
+    border-style:solid;
+   border-radius: 5px;  
+}
