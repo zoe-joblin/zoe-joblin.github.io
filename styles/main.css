@@ -64,6 +64,7 @@ img {
     border-style:solid;
    border-radius: 5px;
    position: relative;
+   margin: 10px 50px; 
 }
 .centred {
     text-align: center;  
@@ -77,4 +78,11 @@ img {
     border-style:solid;
    border-radius: 5px; 
    position: relative; 
+}
+.blog-img {
+    width: 500px;
+    margin: 10px 50px; 
+    text-align: center;  
+    align-content: center;
+   position: relative;
 }
