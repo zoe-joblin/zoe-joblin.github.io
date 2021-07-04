@@ -3,24 +3,26 @@
 
 }
 body {
-font-family: 'Assistant', sans-serif;
 background-color: pink;
-font-size: 12px;
+font-size: 16px;
 text-align: center;
 position: relative;
 align-content: center;
+font-family: 'Assistant', sans-serif;
 }
 h1 {
     font-family: 'Caveat', cursive;
     font-size: 50px;
-    margin: 5px;
+    margin: 10px;
     position: relative;
+    text-align: center;
 }
 h2 {
     font-family: 'Caveat', cursive;
-    font-size: 25px;
-    margin: 5px;
+    font-size: 30px;
+    margin: 10px 10 15px 10px;
     position: relative;
+    text-align: center;
 }
 
 h3 {
@@ -34,6 +36,7 @@ h4 {
     font-family: 'Assistant', sans-serif;
     font-size: 15px;
     position: relative;
+    text-align: center;
 }
 p {
     font-family: 'Assistant', sans-serif;
@@ -43,7 +46,7 @@ p {
     position: relative; 
     margin: 10px 50px; 
 }
-#list {
+.list {
     position: relative;
     width: auto;
     border-color: powderblue;
@@ -65,10 +68,6 @@ img {
    border-radius: 5px;
    position: relative;
    margin: 10px 50px; 
-}
-.centred {
-    text-align: center;  
-    align-content: center;
 }
 #harbour_img {
     width: 400px;
