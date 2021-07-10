@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&family=Caveat:wght@600&display=swap" rel="stylesheet">      
+        <title>Technical Blog # 2</title>
+        <link href="../styles/main.css" rel="stylesheet" type="text/css">
+        <nav> 
+            <table>
+              <th></th>
+              <th></th>
+              <tr>
+                <td><a href="../index.html">Home</a></td>
+                <td><a href="../About-me.html">About Me</a></td>
+              </tr>
+            </table>
+          </nav>
+    </head>
+    <body>
+        <div>
+         <h1>Dodo's Blog</h1>
+         <h2>Technical Blog - Javascript, the DOM and DevTools</h3> 
+        </div>
+        <div> 
+       <h4>What are the differences between HTML and CSS?</h4>
+       <p>Websites are made using three main types of code: html (bulding blocks), CSS (styling) and javascript (nteractivity). CSS and javascript work by acting on html with the Document Object Model (the DOM). HTML can be described as the structural elements of a house e.g every house must have a roof, x number of walls, windows and doors. CSS is the style of the house e.g. how big are the walls, how many windows are there, where will the windows be in relation to the walls and what colour is the roof. </p>
+       </div>
+       <div>
+        <h4>What are control flow and loops?</h4>
+        <p>Loops allow you to run a certain piece of code many times. The control flow is the order in which the loop is run in the browser. For example, in a 'for' the loop, a variable is defined aswell as the conditions that it has to meet for the loop to run and what will happen to the variable while the loop runs - all of this happens before the code in within the loop is executed. Once the code in the loop is executed, the loop will continue to run until the variable no longer meets the conditions defined in the loop.</p>
+        <p>A real life analogy for this is vacuming up some spilled rice. The amount of rice is the variable we set at the beginning of the loop, e.g. if I spilled a whole packet there might be 500 grams on the floor. The condition that is set for the 'vacuuming loop' is that I will continue to vacuum until all the rice is off the floor i.e. until the amount of rice has reduced from 500 gram to 0 grams. The variable (amount of rice) will be reduced by a certain amount each time the loop runs e.g. everytime I pass the vacuum cleaner over the pile of rice, it sucks up approximately 10grams of rice. Once this loop is set, the code that the loop runs would be the action of passing the vacuum cleaner over the pile of rice. The loop will continue to run and I will continue to pass the vacuum cleaner over the pile of rice, sucking up 10grams each time until there is no rice leaft on the floor. At that point, the condition of the loop would no longer be met so the loop would stop and I would turn off the vacuum cleaner!
+        </p>
+        <p>The code for a 'for' loop looks like this:</p>
+        <p>for (var i = 0; i < 10; i++) {CODE} </p>
+        <p>We can translate this into my real life example like this:</p>
+          for (amount of rice spilled = 500g; amount of rice spilled >= 0; amount of rice spilled - 10g) {I will vacuum}</p>
+      </div>
+      <div>
+        <h4>What is the DOM is and how you might interact with it?</h4>
+        <p>The DOM or the Document Object Model is a representation of the way HTML, CSS and Javascript are structured in order for them to interact. It works like a family tree with all elements descending from the document that is being displayed. Javascript is used to manipulate the elements in a document via the DOM. We can use the DOM to find certain elements in a docuemtn such as title tags, images or CSS style classes and then manipulate them using javascript. The DOM defines all HTML and CSS elements as objects or nodes.
+        </p>
+      </div>
+      <div>
+        <h4>What is the difference between accessing data from an array and from an object?</h4>
+        <p> To access data from an array you use its index. The index refers to each element in an array and starts at 0. For example in myArray[a, b, c], 'a' is stored at index 0, 'b' is at index 1 and 'c' at index 2. <p>The code used to access an element in an array is: arrayName[indexNumber] e.g. myArray[0] in the example above would give us 'a'.</p> 
+        <p>To access data from an object we can various methods including dot notation if we know the value of name of the property e.g objectName.propertyName would give us the value of the property in that object; we can use bracket notation like with an array e.g. objectName[propertyName]; or variables can be used to access data in an object by setting a new variable to equal the value of a property in that object.
+        </p>
+      </div>
+      <div>
+        <h4>What are functions and why are they are useful?</h4>
+        <p>Functions are objects that let us use a piece of code multiple times by simply 'calling' the function rather than having to write out the code it contains (which could be very complex) over and over again. A function will have a name, it may have parameters sepcified (these will stand in for variables that can be defined when the function is called) and it will have code within it that is run when the function is called. A simple function looks like this:</p>
+        <p>function functionName(optionalParameters) {<br>
+        console.log("kia ora")<br>}
+        </p>
+        <p>A function is called by writing the function name followed by empty brackets like this: functionName().
+        </p>      
+      </div>    
+    </body>
+</html>
