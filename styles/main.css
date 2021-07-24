@@ -41,7 +41,7 @@ p {
 }
 .ordered-list {
     position: relative;
-    width: 500px;
+    width: auto;
     border-color: powderblue;
     border-width: 5px;
     border-style: solid;
