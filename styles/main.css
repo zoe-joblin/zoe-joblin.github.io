@@ -1,26 +1,32 @@
-* {
-    margin: 5px;
+
+body {
+    background-color: pink;
+    font-size: 16px;
+    margin: 0px auto;
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
 }
-body {background-color: pink;font-size: 16px;text-align: center;position: relative;align-content: center;font-family: 'Assistant', sans-serif;}
+
 h1 {
     font-family: 'Caveat', cursive;
     font-size: 50px;
-    /* margin: 10px 0px; */
-    position: relative;
+    margin: 5px auto;
+    /* position: relative; */
     text-align: center;
 }
 h2 {
     font-family: 'Caveat', cursive;
     font-size: 30px;
-    margin: 10px 10px 15px 10px;
-    position: relative;
+    margin: 0px auto;
+    /* position: relative; */
     text-align: center;
 }
 
 h3 {
     font-family: 'Caveat', cursive;
     font-size: 20px;
-    position: relative;
+    margin: 5px auto;
+    /* position: relative; */
 }
 
 h4 {
@@ -28,20 +34,19 @@ h4 {
     font-size: 17px;
     position: relative;
     text-align: center;
-    margin: 10px 
+    width: 500px;
+    margin: 5px auto;
 }
 p {
     font-family: 'Assistant', sans-serif;
     font-size: 15px;
-    /* width: auto; */
     text-align: center;
-    /* position: relative; */
-    margin: 10px;
-    padding: 10px;
+    margin: 5px auto;
+    width: 800px;
 }
 .ordered-list {
     position: relative;
-    width: auto;
+    width: 400px;
     border-color: powderblue;
     border-width: 5px;
     border-style: solid;
@@ -49,38 +54,32 @@ p {
     background-color: plum;
     font-size: 14px;
     text-align: left;
-    padding: 10px 10px 10px 20px;
-    margin: 20px 100px;
+    padding: 10px ;
+    margin: 10px auto;
 }
 img {
     width: 200px;
-    align-content:center;
+    /* align-content:center; */
     border-color: powderblue;
     border-width: 5px;
     border-style:solid;
     border-radius: 5px;
-    position: relative;
-    margin: 10px 50px;
+    margin: 0px auto;
 }
-#harbour_img {
-    width: 400px;
-    /* align-content:center; */
-    /* border-color: powderblue; */
-    /* border-width: 5px; */
-    /* border-style:solid; */
-    /* border-radius: 5px; */
-    /* position: relative; */
+.harbour_img {
+    width: 500px;
+    margin: 0px auto;
 }
+
 .blog-img {
-    width: auto;
-    /* margin: 10px 50px; */
+    width: 800;
+    margin: 10px auto;
     text-align: center;
-    /* align-content: center; */
-    /* position: relative; */
+    margin: 0px auto;
 }
-a {
+/* a {
     margin: 5px;
-}
+} */
 figcaption {
     margin: 20px 10px 10px 10px;  
 }
